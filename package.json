@@ -1,5 +1,25 @@
 {
+  "name": "api_rest.js",
+  "version": "1.0.0",
+  "description": "Practica del API REST",
+  "main": "api_rest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JadirMiramontes/API_REST.git"
+  },
+  "author": "Jadir Omar Miramontes Armendariz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JadirMiramontes/API_REST/issues"
+  },
+  "homepage": "https://github.com/JadirMiramontes/API_REST#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
   }
 }
